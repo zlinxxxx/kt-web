@@ -1,0 +1,159 @@
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+body {
+    margin: 0;
+}
+
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 25px;
+}
+.nav-bar_button {
+    text-decoration: none;
+    color: #111111;
+    font-size: 20px;
+}
+.nav-bar_button:hover {
+    color: gray;
+}
+.nav-button_home {
+    margin-right: 30px;
+}
+
+
+.text {
+    text-align: center;
+    margin-top: 100px;
+}
+.text-h1 {
+    font-size: 48px;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+.text-p {
+    font-size: 18px;
+    margin: 0 330px 0 330px;
+    line-height: 2.2;
+}
+.p-link {
+    margin-top: 25px;
+}
+.text-link {
+    color: #111111;
+}
+
+.pictures {
+    margin-bottom: 60px;
+}
+.pictures_flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 25px;
+    margin-top: 50px;
+}
+.block {
+    background-color: bisque;
+    width: 383px;
+    height: 346px;
+}
+.block-bg {
+    width: 383px;
+    height: 317px;
+    background-color: #11111194;
+    padding-top: 30px;
+}
+
+.money-icon {
+    margin-top: 50px;
+    margin-left: 85px;
+}
+.horse-icon {
+    margin-top: 50px;
+    margin-left: 116px;
+}
+.dollar-icon {
+    margin-top: 50px;
+    margin-left: 116px;
+}
+.rocket-icon {
+    margin-top: 50px;
+    margin-left: 116px;
+}
+.speaking-device_icon {
+    margin-top: 50px;
+    margin-left: 116px;
+}
+.crisis-icon {
+    margin-top: 50px;
+    margin-left: 116px;
+}
+
+
+
+.block_1 {
+    background-image: url(/images/photo_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.block_2 {
+    background-color: rgb(255, 98, 0);
+    height: 316px;
+    padding-top: 30px;
+}
+.block_3 {
+    background-image: url(/images/photo_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.block_4 {
+    background-color: rgb(113, 182, 8);
+    height: 316px;
+    padding-top: 30px;
+}
+.block_5 {
+    background-image: url(/images/photo_3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.block_6 {
+    background-color: rgb(8, 179, 179);
+    height: 316px;
+    padding-top: 30px;
+}
+
+.pictures-h3 {
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 30px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 50px 0;
+    background-color: #333333;
+}
+.footer-text_p {
+    color: white;
+    text-align: center;
+    width: 417px;
+}
+.with-link {
+    margin-top: 100px;
+}
+.footer-link {
+    color: #C2B4F2;
+}
